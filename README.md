@@ -8,7 +8,7 @@ This project develops a model to classify cat and dog images using the Cats-vs-D
 
 ## Notebooks
 - [Classic ML Models](https://github.com/alexARC26/portfolio-classification-neural-networks/blob/main/notebooks/1_Classic_ML_Models.ipynb)
-- [CNNs: Sequential Models]https://github.com/alexARC26/portfolio-classification-neural-networks/blob/main/notebooks/2_CNN_Sequential.ipynb)
+- [CNNs: Sequential Models](https://github.com/alexARC26/portfolio-classification-neural-networks/blob/main/notebooks/2_CNN_Sequential.ipynb)
 - [CNNs: Transfer Learning](https://github.com/alexARC26/portfolio-classification-neural-networks/blob/main/notebooks/3_CNN_TransferLearning.ipynb)
 - [Preprocessing](https://github.com/alexARC26/portfolio-classification-neural-networks/blob/main/utils/Preprocessing.ipynb)
 
@@ -24,7 +24,7 @@ The notebooks are designed for seamless execution in Google Colab. They include 
 ## Results
 Models were evaluated on the test set using accuracy and F1 score. The bar chart below compares all nine models, with the **InceptionV3-based CNN** achieving the best performance: **96.7% accuracy and 97.0% F1 score**. Other notable results include Random Forest (HOG) at 70% accuracy and a sequential CNN (3 convolutional blocks) at 71.9% accuracy.
 
-![Model Performance by Metric](https://raw.githubusercontent.com/alexARC26/portfolio-classification-neural-networks/images/Results_Summary.png)
+![Model Performance by Metric](https://raw.githubusercontent.com/alexARC26/portfolio-classification-neural-networks/main/images/Results_Summary.png)
 
 ## Technologies Used
 - Data exploration and transformation: `numpy` and `pandas`.
