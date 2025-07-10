@@ -1,5 +1,5 @@
 # Portfolio: Cats-vs.-Dogs Image Classification
-This project develops a model to classify cat and dog images using the Cats-vs-Dogs dataset (2,000 images). The high feature-to-sample ratio (67,500 features per image) limits traditional ML methods, leading me to evaluate classic ML with dimensionality reduction, sequential convolutional neural networks (CNNs), and CNNs with transfer learning. The best model, an InceptionV3-based CNN, achieves **96.7% accuracy and 97.0% F1 score** in an indepedent test dataset, enabling applications like pet identification and animal shelter management.
+This project develops a model to classify cat and dog images using the Cats-vs-Dogs dataset (2,000 images). The high feature-to-sample ratio (67,500 features per image) limits traditional ML methods, leading me to evaluate classic ML with dimensionality reduction, sequential convolutional neural networks (CNNs), and CNNs with transfer learning. The best model, an InceptionV3-based CNN, achieves **0.967 accuracy and 0.970 F1 score** in an indepedent test dataset, enabling applications like pet identification and animal shelter management.
 
 ## Dataset and Preprocessing
 - **Dataset**: 2,000 images (1,000 cats, 1,000 dogs) from Sachin, Shaunthesheep (2020). Dataset: Cats-vs-Dogs : image dataset for binary classification. URL: [https://www.kaggle.com/shaunthesheep/microsoft-catsvsdogs-dataset](https://www.kaggle.com/shaunthesheep/microsoft-catsvsdogs-dataset).
@@ -19,10 +19,10 @@ The dataset was split into train (70%), validation (15%), and test (15%) sets. N
 - **Transfer Learning**: Fine-tuned InceptionV3 pre-trained on ImageNet.
 Hyperparameters were tuned using cross-validation.
 
-The notebooks are designed for seamless execution in Google Colab. They include integrated data downloads from Kaggle and all necessary dependencies, ensuring immediate reproducibility without additional setup. This approach streamlines the user experience, allowing direct focus on the data analysis and modeling workflows.
+The notebooks are designed for seamless execution in Google Colab. They include integrated data downloads and all necessary dependencies, ensuring immediate reproducibility without additional setup. This approach streamlines the user experience, allowing direct focus on the data analysis and modeling workflows.
 
 ## Results
-Models were evaluated on the test set using accuracy and F1 score. The bar chart below compares all nine models, with the **InceptionV3-based CNN** achieving the best performance: **96.7% accuracy and 97.0% F1 score**. Other notable results include Random Forest (HOG) at 70% accuracy and a sequential CNN (3 convolutional blocks) at 71.9% accuracy.
+Models were evaluated on the test set using accuracy and F1 score. The bar chart below compares all nine models, with the **InceptionV3-based CNN** achieving the best performance: **0.967 accuracy and 0.970% F1 score**. Other notable results include Random Forest (HOG) at 0.700 accuracy and a CNN (3 convolutional blocks) at 0.719 accuracy.
 
 ![Model Performance by Metric](https://raw.githubusercontent.com/alexARC26/portfolio-classification-neural-networks/main/images/Results_Summary.png)
 
