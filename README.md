@@ -19,7 +19,7 @@ The dataset was split into train (70%), validation (15%), and test (15%) sets. N
 - **Transfer Learning**: Fine-tuned InceptionV3 pre-trained on ImageNet.
 Hyperparameters were tuned using cross-validation.
 
-The notebooks are designed for seamless execution in Google Colab. They include integrated data downloads and all necessary dependencies, ensuring immediate reproducibility without additional setup. This approach streamlines the user experience, allowing direct focus on the data analysis and modeling workflows.
+The notebooks are designed for seamless execution in Google Colab. They include integrated data downloads and all necessary dependencies, ensuring immediate reproducibility without additional setup.
 
 ## Results
 Models were evaluated on the test set using accuracy and F1 score. The bar chart below compares all nine models, with the **InceptionV3-based CNN** achieving the best performance: **0.967 accuracy and 0.970 F1 score**. Other notable results include Random Forest (HOG) at 0.700 accuracy and CNN (3 convolutional blocks) at 0.719 accuracy.
